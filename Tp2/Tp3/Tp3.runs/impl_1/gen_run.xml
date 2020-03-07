@@ -1,0 +1,164 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GenRun Id="impl_1" LaunchPart="xc7a35tcpg236-1" LaunchTime="1569575344">
+  <File Type="WBT-USG" Name="usage_statistics_webtalk.html"/>
+  <File Type="BG-DRC" Name="Count1.drc"/>
+  <File Type="BG-BGN" Name="Count1.bgn"/>
+  <File Type="BITSTR-SYSDEF" Name="Count1.sysdef"/>
+  <File Type="BITSTR-LTX" Name="debug_nets.ltx"/>
+  <File Type="BITSTR-LTX" Name="Count1.ltx"/>
+  <File Type="BITSTR-MMI" Name="Count1.mmi"/>
+  <File Type="BITSTR-BMM" Name="Count1_bd.bmm"/>
+  <File Type="BITSTR-NKY" Name="Count1.nky"/>
+  <File Type="BITSTR-RBT" Name="Count1.rbt"/>
+  <File Type="BITSTR-MSK" Name="Count1.msk"/>
+  <File Type="BG-BIN" Name="Count1.bin"/>
+  <File Type="BG-BIT" Name="Count1.bit"/>
+  <File Type="POSTROUTE-PHYSOPT-BUS-SKEW-RPX" Name="Count1_bus_skew_postroute_physopted.rpx"/>
+  <File Type="POSTROUTE-PHYSOPT-BUS-SKEW-PB" Name="Count1_bus_skew_postroute_physopted.pb"/>
+  <File Type="POSTROUTE-PHYSOPT-BUS-SKEW" Name="Count1_bus_skew_postroute_physopted.rpt"/>
+  <File Type="RDI-RDI" Name="Count1.vdi"/>
+  <File Type="POSTROUTE-PHYSOPT-TIMING-RPX" Name="Count1_timing_summary_postroute_physopted.rpx"/>
+  <File Type="POSTROUTE-PHYSOPT-TIMING-PB" Name="Count1_timing_summary_postroute_physopted.pb"/>
+  <File Type="POSTROUTE-PHYSOPT-TIMING" Name="Count1_timing_summary_postroute_physopted.rpt"/>
+  <File Type="POSTROUTE-PHYSOPT-BLACKBOX-DCP" Name="Count1_postroute_physopt_bb.dcp"/>
+  <File Type="POSTROUTE-PHYSOPT-DCP" Name="Count1_postroute_physopt.dcp"/>
+  <File Type="ROUTE-BUS-SKEW" Name="Count1_bus_skew_routed.rpt"/>
+  <File Type="ROUTE-CLK" Name="Count1_clock_utilization_routed.rpt"/>
+  <File Type="ROUTE-SIMILARITY" Name="Count1_incremental_reuse_routed.rpt"/>
+  <File Type="ROUTE-TIMING-RPX" Name="Count1_timing_summary_routed.rpx"/>
+  <File Type="ROUTE-TIMING-PB" Name="Count1_timing_summary_routed.pb"/>
+  <File Type="ROUTE-TIMINGSUMMARY" Name="Count1_timing_summary_routed.rpt"/>
+  <File Type="ROUTE-STATUS-PB" Name="Count1_route_status.pb"/>
+  <File Type="ROUTE-STATUS" Name="Count1_route_status.rpt"/>
+  <File Type="ROUTE-PWR-RPX" Name="Count1_power_routed.rpx"/>
+  <File Type="ROUTE-PWR-SUM" Name="Count1_power_summary_routed.pb"/>
+  <File Type="ROUTE-PWR" Name="Count1_power_routed.rpt"/>
+  <File Type="ROUTE-METHODOLOGY-DRC-PB" Name="Count1_methodology_drc_routed.pb"/>
+  <File Type="ROUTE-METHODOLOGY-DRC-RPX" Name="Count1_methodology_drc_routed.rpx"/>
+  <File Type="ROUTE-METHODOLOGY-DRC" Name="Count1_methodology_drc_routed.rpt"/>
+  <File Type="ROUTE-DRC-RPX" Name="Count1_drc_routed.rpx"/>
+  <File Type="ROUTE-DRC-PB" Name="Count1_drc_routed.pb"/>
+  <File Type="ROUTE-DRC" Name="Count1_drc_routed.rpt"/>
+  <File Type="ROUTE-BLACKBOX-DCP" Name="Count1_routed_bb.dcp"/>
+  <File Type="ROUTE-DCP" Name="Count1_routed.dcp"/>
+  <File Type="ROUTE-ERROR-DCP" Name="Count1_routed_error.dcp"/>
+  <File Type="PHYSOPT-TIMING" Name="Count1_timing_summary_physopted.rpt"/>
+  <File Type="PHYSOPT-DRC" Name="Count1_drc_physopted.rpt"/>
+  <File Type="PHYSOPT-DCP" Name="Count1_physopt.dcp"/>
+  <File Type="POSTPLACE-PWROPT-TIMING" Name="Count1_timing_summary_postplace_pwropted.rpt"/>
+  <File Type="POSTPLACE-PWROPT-DCP" Name="Count1_postplace_pwropt.dcp"/>
+  <File Type="PLACE-TIMING" Name="Count1_timing_summary_placed.rpt"/>
+  <File Type="PLACE-PRE-SIMILARITY" Name="Count1_incremental_reuse_pre_placed.rpt"/>
+  <File Type="PLACE-SIMILARITY" Name="Count1_incremental_reuse_placed.rpt"/>
+  <File Type="PLACE-CTRL" Name="Count1_control_sets_placed.rpt"/>
+  <File Type="PLACE-UTIL-PB" Name="Count1_utilization_placed.pb"/>
+  <File Type="PLACE-UTIL" Name="Count1_utilization_placed.rpt"/>
+  <File Type="PLACE-CLK" Name="Count1_clock_utilization_placed.rpt"/>
+  <File Type="PLACE-IO" Name="Count1_io_placed.rpt"/>
+  <File Type="PLACE-DCP" Name="Count1_placed.dcp"/>
+  <File Type="PWROPT-TIMING" Name="Count1_timing_summary_pwropted.rpt"/>
+  <File Type="PWROPT-DRC" Name="Count1_drc_pwropted.rpt"/>
+  <File Type="PWROPT-DCP" Name="Count1_pwropt.dcp"/>
+  <File Type="OPT-TIMING" Name="Count1_timing_summary_opted.rpt"/>
+  <File Type="OPT-HWDEF" Name="Count1.hwdef"/>
+  <File Type="OPT-METHODOLOGY-DRC" Name="Count1_methodology_drc_opted.rpt"/>
+  <File Type="OPT-DRC" Name="Count1_drc_opted.rpt"/>
+  <File Type="OPT-DCP" Name="Count1_opt.dcp"/>
+  <File Type="INIT-TIMING" Name="Count1_timing_summary_init.rpt"/>
+  <File Type="ROUTE-BUS-SKEW-RPX" Name="Count1_bus_skew_routed.rpx"/>
+  <File Type="REPORTS-TCL" Name="Count1_reports.tcl"/>
+  <File Type="ROUTE-BUS-SKEW-PB" Name="Count1_bus_skew_routed.pb"/>
+  <File Type="PA-TCL" Name="Count1.tcl"/>
+  <FileSet Name="sources" Type="DesignSrcs" RelSrcDir="$PSRCDIR/sources_1">
+    <Filter Type="Srcs"/>
+    <File Path="$PSRCDIR/sources_1/new/Count1.vhd">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/new/Parity.vhd">
+      <FileInfo>
+        <Attr Name="AutoDisabled" Val="1"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/new/comp.vhd">
+      <FileInfo>
+        <Attr Name="AutoDisabled" Val="1"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/new/add1.vhd">
+      <FileInfo>
+        <Attr Name="AutoDisabled" Val="1"/>
+        <Attr Name="ImportPath" Val="$PPRDIR/../Tp2.srcs/sources_1/new/add1.vhd"/>
+        <Attr Name="ImportTime" Val="1569513761"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/new/add4.vhd">
+      <FileInfo>
+        <Attr Name="AutoDisabled" Val="1"/>
+        <Attr Name="ImportPath" Val="$PPRDIR/../../Tp1/tp1.srcs/sources_1/new/add4.vhd"/>
+        <Attr Name="ImportTime" Val="1568380318"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/new/x7seg.vhd">
+      <FileInfo>
+        <Attr Name="AutoDisabled" Val="1"/>
+        <Attr Name="ImportPath" Val="$PPRDIR/../Tp2.srcs/sources_1/new/x7seg.vhd"/>
+        <Attr Name="ImportTime" Val="1569516607"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/new/calc.vhd">
+      <FileInfo>
+        <Attr Name="AutoDisabled" Val="1"/>
+        <Attr Name="ImportPath" Val="$PPRDIR/../Tp2.srcs/sources_1/new/calc.vhd"/>
+        <Attr Name="ImportTime" Val="1569518801"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <Config>
+      <Option Name="DesignMode" Val="RTL"/>
+      <Option Name="TopModule" Val="Count1"/>
+    </Config>
+  </FileSet>
+  <FileSet Name="constrs_in" Type="Constrs" RelSrcDir="$PSRCDIR/constrs_1">
+    <Filter Type="Constrs"/>
+    <File Path="$PSRCDIR/constrs_1/imports/Tp2/Basys3_Master.xdc">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../Basys3_Master.xdc"/>
+        <Attr Name="ImportTime" Val="1568378511"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+      </FileInfo>
+    </File>
+    <Config>
+      <Option Name="TargetConstrsFile" Val="$PSRCDIR/constrs_1/imports/Tp2/Basys3_Master.xdc"/>
+      <Option Name="ConstrsType" Val="XDC"/>
+    </Config>
+  </FileSet>
+  <Strategy Version="1" Minor="2">
+    <StratHandle Name="Vivado Implementation Defaults" Flow="Vivado Implementation 2018">
+      <Desc>Default settings for Implementation.</Desc>
+    </StratHandle>
+    <Step Id="init_design"/>
+    <Step Id="opt_design"/>
+    <Step Id="power_opt_design"/>
+    <Step Id="place_design"/>
+    <Step Id="post_place_power_opt_design"/>
+    <Step Id="phys_opt_design"/>
+    <Step Id="route_design"/>
+    <Step Id="post_route_phys_opt_design"/>
+    <Step Id="write_bitstream"/>
+  </Strategy>
+</GenRun>

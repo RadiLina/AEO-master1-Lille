@@ -1,0 +1,387 @@
+
+*** Running vivado
+    with args -log my_add.vds -m64 -product Vivado -mode batch -messageDb vivado.pb -notrace -source my_add.tcl
+
+
+****** Vivado v2018.2.1 (64-bit)
+  **** SW Build 2288692 on Thu Jul 26 18:23:50 MDT 2018
+  **** IP Build 2289599 on Thu Jul 26 21:09:20 MDT 2018
+    ** Copyright 1986-2018 Xilinx, Inc. All Rights Reserved.
+
+source my_add.tcl -notrace
+Command: synth_design -top my_add -part xc7a35tcpg236-1
+Starting synth_design
+Attempting to get a license for feature 'Synthesis' and/or device 'xc7a35t'
+INFO: [Common 17-349] Got license for feature 'Synthesis' and/or device 'xc7a35t'
+INFO: Launching helper process for spawning children vivado processes
+INFO: Helper process launched with PID 2552 
+Terminated helper unrecognised option '-nojournal'
+---------------------------------------------------------------------------------
+Starting RTL Elaboration : Time (s): cpu = 00:00:02 ; elapsed = 00:00:02 . Memory (MB): peak = 1279.422 ; gain = 86.766 ; free physical = 1281 ; free virtual = 18530
+---------------------------------------------------------------------------------
+INFO: [Synth 8-638] synthesizing module 'my_add' [/home/m1/radi/Documents/tp1/tp1.srcs/sources_1/new/my_add.vhd:41]
+INFO: [Synth 8-256] done synthesizing module 'my_add' (1#1) [/home/m1/radi/Documents/tp1/tp1.srcs/sources_1/new/my_add.vhd:41]
+WARNING: [Synth 8-3331] design my_add has unconnected port led[15]
+WARNING: [Synth 8-3331] design my_add has unconnected port led[14]
+WARNING: [Synth 8-3331] design my_add has unconnected port led[13]
+WARNING: [Synth 8-3331] design my_add has unconnected port led[12]
+WARNING: [Synth 8-3331] design my_add has unconnected port led[11]
+WARNING: [Synth 8-3331] design my_add has unconnected port led[10]
+WARNING: [Synth 8-3331] design my_add has unconnected port led[9]
+WARNING: [Synth 8-3331] design my_add has unconnected port led[8]
+WARNING: [Synth 8-3331] design my_add has unconnected port led[7]
+WARNING: [Synth 8-3331] design my_add has unconnected port led[6]
+WARNING: [Synth 8-3331] design my_add has unconnected port led[5]
+WARNING: [Synth 8-3331] design my_add has unconnected port led[4]
+WARNING: [Synth 8-3331] design my_add has unconnected port sw[11]
+WARNING: [Synth 8-3331] design my_add has unconnected port sw[10]
+WARNING: [Synth 8-3331] design my_add has unconnected port sw[9]
+WARNING: [Synth 8-3331] design my_add has unconnected port sw[8]
+WARNING: [Synth 8-3331] design my_add has unconnected port sw[7]
+WARNING: [Synth 8-3331] design my_add has unconnected port sw[6]
+WARNING: [Synth 8-3331] design my_add has unconnected port sw[5]
+WARNING: [Synth 8-3331] design my_add has unconnected port sw[4]
+---------------------------------------------------------------------------------
+Finished RTL Elaboration : Time (s): cpu = 00:00:02 ; elapsed = 00:00:02 . Memory (MB): peak = 1324.047 ; gain = 131.391 ; free physical = 1295 ; free virtual = 18544
+---------------------------------------------------------------------------------
+
+Report Check Netlist: 
++------+------------------+-------+---------+-------+------------------+
+|      |Item              |Errors |Warnings |Status |Description       |
++------+------------------+-------+---------+-------+------------------+
+|1     |multi_driven_nets |      0|        0|Passed |Multi driven nets |
++------+------------------+-------+---------+-------+------------------+
+---------------------------------------------------------------------------------
+Start Handling Custom Attributes
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Handling Custom Attributes : Time (s): cpu = 00:00:02 ; elapsed = 00:00:03 . Memory (MB): peak = 1324.047 ; gain = 131.391 ; free physical = 1294 ; free virtual = 18543
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished RTL Optimization Phase 1 : Time (s): cpu = 00:00:02 ; elapsed = 00:00:03 . Memory (MB): peak = 1324.047 ; gain = 131.391 ; free physical = 1294 ; free virtual = 18543
+---------------------------------------------------------------------------------
+INFO: [Device 21-403] Loading part xc7a35tcpg236-1
+INFO: [Project 1-570] Preparing netlist for logic optimization
+
+Processing XDC Constraints
+Initializing timing engine
+Parsing XDC File [/home/m1/radi/Documents/tp1/tp1.srcs/constrs_1/imports/tp1/Basys3_Master.xdc]
+Finished Parsing XDC File [/home/m1/radi/Documents/tp1/tp1.srcs/constrs_1/imports/tp1/Basys3_Master.xdc]
+INFO: [Project 1-236] Implementation specific constraints were found while reading constraint file [/home/m1/radi/Documents/tp1/tp1.srcs/constrs_1/imports/tp1/Basys3_Master.xdc]. These constraints will be ignored for synthesis but will be used in implementation. Impacted constraints are listed in the file [.Xil/my_add_propImpl.xdc].
+Resolution: To avoid this warning, move constraints listed in [.Xil/my_add_propImpl.xdc] to another XDC file and exclude this new file from synthesis with the used_in_synthesis property (File Properties dialog in GUI) and re-run elaboration/synthesis.
+Parsing XDC File [/home/m1/radi/Documents/tp1/tp1.srcs/constrs_1/new/add4.xdc]
+WARNING: [Vivado 12-584] No ports matched 'a[0]'. [/home/m1/radi/Documents/tp1/tp1.srcs/constrs_1/new/add4.xdc:2]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [/home/m1/radi/Documents/tp1/tp1.srcs/constrs_1/new/add4.xdc:2]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'a[0]'. [/home/m1/radi/Documents/tp1/tp1.srcs/constrs_1/new/add4.xdc:3]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [/home/m1/radi/Documents/tp1/tp1.srcs/constrs_1/new/add4.xdc:3]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'a[1]'. [/home/m1/radi/Documents/tp1/tp1.srcs/constrs_1/new/add4.xdc:4]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [/home/m1/radi/Documents/tp1/tp1.srcs/constrs_1/new/add4.xdc:4]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'a[1]'. [/home/m1/radi/Documents/tp1/tp1.srcs/constrs_1/new/add4.xdc:5]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [/home/m1/radi/Documents/tp1/tp1.srcs/constrs_1/new/add4.xdc:5]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'a[2]'. [/home/m1/radi/Documents/tp1/tp1.srcs/constrs_1/new/add4.xdc:6]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [/home/m1/radi/Documents/tp1/tp1.srcs/constrs_1/new/add4.xdc:6]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'a[2]'. [/home/m1/radi/Documents/tp1/tp1.srcs/constrs_1/new/add4.xdc:7]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [/home/m1/radi/Documents/tp1/tp1.srcs/constrs_1/new/add4.xdc:7]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'a[3]'. [/home/m1/radi/Documents/tp1/tp1.srcs/constrs_1/new/add4.xdc:8]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [/home/m1/radi/Documents/tp1/tp1.srcs/constrs_1/new/add4.xdc:8]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'a[3]'. [/home/m1/radi/Documents/tp1/tp1.srcs/constrs_1/new/add4.xdc:9]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [/home/m1/radi/Documents/tp1/tp1.srcs/constrs_1/new/add4.xdc:9]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'b[0]'. [/home/m1/radi/Documents/tp1/tp1.srcs/constrs_1/new/add4.xdc:12]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [/home/m1/radi/Documents/tp1/tp1.srcs/constrs_1/new/add4.xdc:12]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'b[0]'. [/home/m1/radi/Documents/tp1/tp1.srcs/constrs_1/new/add4.xdc:13]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [/home/m1/radi/Documents/tp1/tp1.srcs/constrs_1/new/add4.xdc:13]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'b[1]'. [/home/m1/radi/Documents/tp1/tp1.srcs/constrs_1/new/add4.xdc:14]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [/home/m1/radi/Documents/tp1/tp1.srcs/constrs_1/new/add4.xdc:14]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'b[1]'. [/home/m1/radi/Documents/tp1/tp1.srcs/constrs_1/new/add4.xdc:15]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [/home/m1/radi/Documents/tp1/tp1.srcs/constrs_1/new/add4.xdc:15]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'b[2]'. [/home/m1/radi/Documents/tp1/tp1.srcs/constrs_1/new/add4.xdc:16]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [/home/m1/radi/Documents/tp1/tp1.srcs/constrs_1/new/add4.xdc:16]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'b[2]'. [/home/m1/radi/Documents/tp1/tp1.srcs/constrs_1/new/add4.xdc:17]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [/home/m1/radi/Documents/tp1/tp1.srcs/constrs_1/new/add4.xdc:17]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'b[3]'. [/home/m1/radi/Documents/tp1/tp1.srcs/constrs_1/new/add4.xdc:18]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [/home/m1/radi/Documents/tp1/tp1.srcs/constrs_1/new/add4.xdc:18]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'b[3]'. [/home/m1/radi/Documents/tp1/tp1.srcs/constrs_1/new/add4.xdc:19]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [/home/m1/radi/Documents/tp1/tp1.srcs/constrs_1/new/add4.xdc:19]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'sum[0]'. [/home/m1/radi/Documents/tp1/tp1.srcs/constrs_1/new/add4.xdc:22]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [/home/m1/radi/Documents/tp1/tp1.srcs/constrs_1/new/add4.xdc:22]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'sum[0]'. [/home/m1/radi/Documents/tp1/tp1.srcs/constrs_1/new/add4.xdc:23]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [/home/m1/radi/Documents/tp1/tp1.srcs/constrs_1/new/add4.xdc:23]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'sum[1]'. [/home/m1/radi/Documents/tp1/tp1.srcs/constrs_1/new/add4.xdc:24]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [/home/m1/radi/Documents/tp1/tp1.srcs/constrs_1/new/add4.xdc:24]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'sum[1]'. [/home/m1/radi/Documents/tp1/tp1.srcs/constrs_1/new/add4.xdc:25]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [/home/m1/radi/Documents/tp1/tp1.srcs/constrs_1/new/add4.xdc:25]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'sum[2]'. [/home/m1/radi/Documents/tp1/tp1.srcs/constrs_1/new/add4.xdc:26]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [/home/m1/radi/Documents/tp1/tp1.srcs/constrs_1/new/add4.xdc:26]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'sum[2]'. [/home/m1/radi/Documents/tp1/tp1.srcs/constrs_1/new/add4.xdc:27]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [/home/m1/radi/Documents/tp1/tp1.srcs/constrs_1/new/add4.xdc:27]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'sum[3]'. [/home/m1/radi/Documents/tp1/tp1.srcs/constrs_1/new/add4.xdc:28]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [/home/m1/radi/Documents/tp1/tp1.srcs/constrs_1/new/add4.xdc:28]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'sum[3]'. [/home/m1/radi/Documents/tp1/tp1.srcs/constrs_1/new/add4.xdc:29]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [/home/m1/radi/Documents/tp1/tp1.srcs/constrs_1/new/add4.xdc:29]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'sum[4]'. [/home/m1/radi/Documents/tp1/tp1.srcs/constrs_1/new/add4.xdc:30]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [/home/m1/radi/Documents/tp1/tp1.srcs/constrs_1/new/add4.xdc:30]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'sum[4]'. [/home/m1/radi/Documents/tp1/tp1.srcs/constrs_1/new/add4.xdc:31]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [/home/m1/radi/Documents/tp1/tp1.srcs/constrs_1/new/add4.xdc:31]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+Finished Parsing XDC File [/home/m1/radi/Documents/tp1/tp1.srcs/constrs_1/new/add4.xdc]
+Completed Processing XDC Constraints
+
+INFO: [Project 1-111] Unisim Transformation Summary:
+No Unisim elements were transformed.
+
+Constraint Validation Runtime : Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 1572.391 ; gain = 0.000 ; free physical = 1063 ; free virtual = 18303
+---------------------------------------------------------------------------------
+Finished Constraint Validation : Time (s): cpu = 00:00:09 ; elapsed = 00:00:17 . Memory (MB): peak = 1572.391 ; gain = 379.734 ; free physical = 1131 ; free virtual = 18371
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Loading Part and Timing Information
+---------------------------------------------------------------------------------
+Loading part: xc7a35tcpg236-1
+---------------------------------------------------------------------------------
+Finished Loading Part and Timing Information : Time (s): cpu = 00:00:09 ; elapsed = 00:00:17 . Memory (MB): peak = 1572.391 ; gain = 379.734 ; free physical = 1131 ; free virtual = 18371
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Applying 'set_property' XDC Constraints
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished applying 'set_property' XDC Constraints : Time (s): cpu = 00:00:09 ; elapsed = 00:00:17 . Memory (MB): peak = 1572.391 ; gain = 379.734 ; free physical = 1133 ; free virtual = 18373
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished RTL Optimization Phase 2 : Time (s): cpu = 00:00:09 ; elapsed = 00:00:17 . Memory (MB): peak = 1572.391 ; gain = 379.734 ; free physical = 1132 ; free virtual = 18372
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start RTL Component Statistics 
+---------------------------------------------------------------------------------
+Detailed RTL Component Info : 
++---Adders : 
+	   2 Input      5 Bit       Adders := 1     
+---------------------------------------------------------------------------------
+Finished RTL Component Statistics 
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start RTL Hierarchical Component Statistics 
+---------------------------------------------------------------------------------
+Hierarchical RTL Component report 
+Module my_add 
+Detailed RTL Component Info : 
++---Adders : 
+	   2 Input      5 Bit       Adders := 1     
+---------------------------------------------------------------------------------
+Finished RTL Hierarchical Component Statistics
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Part Resource Summary
+---------------------------------------------------------------------------------
+Part Resources:
+DSPs: 90 (col length:60)
+BRAMs: 100 (col length: RAMB18 60 RAMB36 30)
+---------------------------------------------------------------------------------
+Finished Part Resource Summary
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Cross Boundary and Area Optimization
+---------------------------------------------------------------------------------
+Warning: Parallel synthesis criteria is not met 
+WARNING: [Synth 8-3331] design my_add has unconnected port led[15]
+WARNING: [Synth 8-3331] design my_add has unconnected port led[14]
+WARNING: [Synth 8-3331] design my_add has unconnected port led[13]
+WARNING: [Synth 8-3331] design my_add has unconnected port led[12]
+WARNING: [Synth 8-3331] design my_add has unconnected port led[11]
+WARNING: [Synth 8-3331] design my_add has unconnected port led[10]
+WARNING: [Synth 8-3331] design my_add has unconnected port led[9]
+WARNING: [Synth 8-3331] design my_add has unconnected port led[8]
+WARNING: [Synth 8-3331] design my_add has unconnected port led[7]
+WARNING: [Synth 8-3331] design my_add has unconnected port led[6]
+WARNING: [Synth 8-3331] design my_add has unconnected port led[5]
+WARNING: [Synth 8-3331] design my_add has unconnected port led[4]
+WARNING: [Synth 8-3331] design my_add has unconnected port sw[11]
+WARNING: [Synth 8-3331] design my_add has unconnected port sw[10]
+WARNING: [Synth 8-3331] design my_add has unconnected port sw[9]
+WARNING: [Synth 8-3331] design my_add has unconnected port sw[8]
+WARNING: [Synth 8-3331] design my_add has unconnected port sw[7]
+WARNING: [Synth 8-3331] design my_add has unconnected port sw[6]
+WARNING: [Synth 8-3331] design my_add has unconnected port sw[5]
+WARNING: [Synth 8-3331] design my_add has unconnected port sw[4]
+---------------------------------------------------------------------------------
+Finished Cross Boundary and Area Optimization : Time (s): cpu = 00:00:10 ; elapsed = 00:00:17 . Memory (MB): peak = 1572.391 ; gain = 379.734 ; free physical = 1121 ; free virtual = 18362
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start Applying XDC Timing Constraints
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Applying XDC Timing Constraints : Time (s): cpu = 00:00:14 ; elapsed = 00:00:24 . Memory (MB): peak = 1606.391 ; gain = 413.734 ; free physical = 997 ; free virtual = 18238
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Timing Optimization
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Timing Optimization : Time (s): cpu = 00:00:14 ; elapsed = 00:00:24 . Memory (MB): peak = 1606.391 ; gain = 413.734 ; free physical = 997 ; free virtual = 18238
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start Technology Mapping
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Technology Mapping : Time (s): cpu = 00:00:14 ; elapsed = 00:00:24 . Memory (MB): peak = 1606.391 ; gain = 413.734 ; free physical = 997 ; free virtual = 18238
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Flattening Before IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Flattening Before IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Final Netlist Cleanup
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Final Netlist Cleanup
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished IO Insertion : Time (s): cpu = 00:00:15 ; elapsed = 00:00:24 . Memory (MB): peak = 1606.391 ; gain = 413.734 ; free physical = 996 ; free virtual = 18238
+---------------------------------------------------------------------------------
+
+Report Check Netlist: 
++------+------------------+-------+---------+-------+------------------+
+|      |Item              |Errors |Warnings |Status |Description       |
++------+------------------+-------+---------+-------+------------------+
+|1     |multi_driven_nets |      0|        0|Passed |Multi driven nets |
++------+------------------+-------+---------+-------+------------------+
+---------------------------------------------------------------------------------
+Start Renaming Generated Instances
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Instances : Time (s): cpu = 00:00:15 ; elapsed = 00:00:24 . Memory (MB): peak = 1606.391 ; gain = 413.734 ; free physical = 996 ; free virtual = 18238
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start Rebuilding User Hierarchy
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Rebuilding User Hierarchy : Time (s): cpu = 00:00:15 ; elapsed = 00:00:24 . Memory (MB): peak = 1606.391 ; gain = 413.734 ; free physical = 996 ; free virtual = 18238
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Ports
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Ports : Time (s): cpu = 00:00:15 ; elapsed = 00:00:24 . Memory (MB): peak = 1606.391 ; gain = 413.734 ; free physical = 996 ; free virtual = 18238
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Handling Custom Attributes
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Handling Custom Attributes : Time (s): cpu = 00:00:15 ; elapsed = 00:00:24 . Memory (MB): peak = 1606.391 ; gain = 413.734 ; free physical = 996 ; free virtual = 18238
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Nets
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Nets : Time (s): cpu = 00:00:15 ; elapsed = 00:00:24 . Memory (MB): peak = 1606.391 ; gain = 413.734 ; free physical = 996 ; free virtual = 18238
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Writing Synthesis Report
+---------------------------------------------------------------------------------
+
+Report BlackBoxes: 
++-+--------------+----------+
+| |BlackBox name |Instances |
++-+--------------+----------+
++-+--------------+----------+
+
+Report Cell Usage: 
++------+------+------+
+|      |Cell  |Count |
++------+------+------+
+|1     |LUT2  |     1|
+|2     |LUT3  |     2|
+|3     |LUT4  |     1|
+|4     |LUT6  |     2|
+|5     |IBUF  |     8|
+|6     |OBUF  |     5|
+|7     |OBUFT |    12|
++------+------+------+
+
+Report Instance Areas: 
++------+---------+-------+------+
+|      |Instance |Module |Cells |
++------+---------+-------+------+
+|1     |top      |       |    31|
++------+---------+-------+------+
+---------------------------------------------------------------------------------
+Finished Writing Synthesis Report : Time (s): cpu = 00:00:15 ; elapsed = 00:00:24 . Memory (MB): peak = 1606.391 ; gain = 413.734 ; free physical = 996 ; free virtual = 18238
+---------------------------------------------------------------------------------
+Synthesis finished with 0 errors, 0 critical warnings and 20 warnings.
+Synthesis Optimization Runtime : Time (s): cpu = 00:00:09 ; elapsed = 00:00:12 . Memory (MB): peak = 1606.391 ; gain = 165.391 ; free physical = 1051 ; free virtual = 18292
+Synthesis Optimization Complete : Time (s): cpu = 00:00:15 ; elapsed = 00:00:24 . Memory (MB): peak = 1606.391 ; gain = 413.734 ; free physical = 1051 ; free virtual = 18292
+INFO: [Project 1-571] Translating synthesized netlist
+INFO: [Netlist 29-17] Analyzing 8 Unisim elements for replacement
+INFO: [Netlist 29-28] Unisim Transformation completed in 0 CPU seconds
+INFO: [Project 1-570] Preparing netlist for logic optimization
+INFO: [Opt 31-138] Pushed 0 inverter(s) to 0 load pin(s).
+INFO: [Project 1-111] Unisim Transformation Summary:
+No Unisim elements were transformed.
+
+INFO: [Common 17-83] Releasing license: Synthesis
+14 Infos, 66 Warnings, 26 Critical Warnings and 0 Errors encountered.
+synth_design completed successfully
+synth_design: Time (s): cpu = 00:00:15 ; elapsed = 00:00:25 . Memory (MB): peak = 1637.398 ; gain = 450.703 ; free physical = 1030 ; free virtual = 18271
+WARNING: [Constraints 18-5210] No constraint will be written out.
+INFO: [Common 17-1381] The checkpoint '/home/m1/radi/Documents/tp1/tp1.runs/synth_1/my_add.dcp' has been generated.
+INFO: [runtcl-4] Executing : report_utilization -file my_add_utilization_synth.rpt -pb my_add_utilization_synth.pb
+report_utilization: Time (s): cpu = 00:00:00.10 ; elapsed = 00:00:00.14 . Memory (MB): peak = 1661.410 ; gain = 0.000 ; free physical = 1030 ; free virtual = 18272
+INFO: [Common 17-206] Exiting Vivado at Thu Sep 19 12:07:49 2019...
